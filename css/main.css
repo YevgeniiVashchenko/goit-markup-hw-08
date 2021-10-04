@@ -289,6 +289,7 @@ ul {
   border: 0px;
   background-color: transparent;
   cursor: pointer;
+  padding: unset;
 }
 
 @media screen and (min-width: 768px) {
