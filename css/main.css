@@ -1350,6 +1350,7 @@ ul {
   top: 8px;
   right: 8px;
   cursor: pointer;
+  padding: unset;
 }
 
 .btn-open-icon {
