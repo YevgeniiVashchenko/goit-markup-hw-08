@@ -117,6 +117,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  @media screen and (min-width: 768px) {
+    padding-top: unset;
+    padding-bottom: unset;
+  }
 }
 .menu-open {
   display: flex;
@@ -125,8 +131,6 @@
   align-items: center;
   justify-content: center;
   border: 0px;
-  padding-top: 10px;
-  padding-bottom: 10px;
   background-color: transparent;
   cursor: pointer;
   @media screen and (min-width: 768px) {
